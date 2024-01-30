@@ -22,7 +22,7 @@ function App() {
       <Header/>
     <AddContact/>
     <br/>
-    <ContactList contacts={contacts}/>
+    <ContactList record={contacts}/>
     </div>
   );
 }
